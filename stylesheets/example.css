@@ -1,0 +1,101 @@
+body {
+  background-color: burlywood;
+}
+#main {
+  background-color: black;
+}
+/* div {
+  width: 200px;
+  height: 200px;
+  background-color: grey;
+  margin: 10px;
+  border-radius: 100%;
+} */
+.gold {
+  background-color: gold;
+  transition: 0.6s;
+}
+.gold:hover {
+  background-color: black;
+  transition: 1.6s;
+}
+.red {
+  background-color: red;
+  /* position: absolute; */
+  top: 200px;
+  left: 600px;
+}
+.blue {
+  background-color: blue;
+  transition: 1s;
+}
+.blue:hover {
+  width: 300px;
+  height: 300px;
+  transition: 2s;
+}
+
+/* стили для приложения */
+
+.app {
+  width: 375px;
+  height: 812px;
+  margin: 10px auto;
+  background-color: #173136;
+  color: #ffc857;
+  border-radius: 24px;
+  font-family: 'Raleway', sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  position: relative;
+}
+.status-bar {
+  width: 100%;
+}
+h1 {
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 42px;
+  letter-spacing: 2%;
+  font-family: 'Fredoka', sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: 'wdth' 100;
+  position: absolute;
+  margin-top: 88px;
+  margin-left: 24px;
+}
+h2 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 130%;
+  position: absolute;
+  top: 274px;
+  left: 24px;
+}
+h2 + p {
+  color: white;
+  opacity: 0.5;
+  font-size: 20px;
+  line-height: 130%;
+  font-weight: 700;
+  position: absolute;
+  top: 332px;
+  left: 24px;
+}
+.scan-button {
+  width: 327px;
+  height: 56px;
+  position: absolute;
+  top: 432px;
+  left: 24px;
+  border: 2px solid #ffc85780;
+  border-radius: 16px;
+}
+.scan-button p {
+  color: #ffc857;
+  position: relative;
+  top: -15px;
+  text-align: center;
+  font-weight: 700;
+}
